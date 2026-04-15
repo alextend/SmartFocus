@@ -1,0 +1,27 @@
+## Interface: 120001
+## Title: |cFFFF0000S|cFFFF7F00m|cFFFFFF00a|cff00FF00r|cff00FFFFt|cffff00ffF|cffffff00o|cff00FF00c|cffff7f00u|cffff0000s|r
+## Notes: Automatically detects important NPCs (e.g., Brann, Tanks) in Delves or Dungeons and provides a secure button to set focus quickly.
+## Notes-zhCN: 自动检测地下堡、副本中的重要NPC（如布莱恩、坦克）并提供快捷焦点设置。
+## Notes-zhTW: 自動檢測地下堡、副本中的重要NPC（如布萊恩、坦克）並提供快捷焦點設置。
+## IconTexture: Interface\Icons\Ability_Hunter_Misdirection
+## Author: Alextend
+## Version: 12.0
+## DefaultState: enabled
+## SavedVariables: SmartFocusDB
+## Description: A lightweight tool to quickly lock on key friendly targets via a secure button in specific scenarios.
+## Description-zhCN: 一个轻量级的工具，用于在特定场景下通过安全按钮快速锁定关键友方目标。
+## Description-zhTW: 一個輕量級的工具，用於在特定場景下通過安全按鈕快速鎖定關鍵友方目標。
+
+#@no-lib-strip@
+Libs\libs.xml
+#@end-no-lib-strip@
+
+# 本地化文件
+Locales\zhCN.lua
+Locales\enUS.lua
+
+# 核心逻辑
+Launcher.lua
+SmartFocus.lua
+Config.lua
+Button.lua
