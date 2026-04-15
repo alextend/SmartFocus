@@ -5,7 +5,7 @@
 ## Notes-zhTW: 自動檢測地下堡、副本中的重要NPC（如布萊恩、坦克）並提供快捷焦點設置。
 ## IconTexture: Interface\Icons\Ability_Hunter_Misdirection
 ## Author: Alextend
-## Version: 12.0
+## Version: 1.0.0
 ## DefaultState: enabled
 ## SavedVariables: SmartFocusDB
 ## Description: A lightweight tool to quickly lock on key friendly targets via a secure button in specific scenarios.
