@@ -4,7 +4,7 @@ Automatically detects important NPCs and Tanks in Delves/Dungeons/PVP and provid
 
 ---
 
-<details open>
+<details>
 <summary><b>🇨🇳 简体中文 (Chinese) - 点击展开/折叠</b></summary>
 
 ## 简介
